@@ -1,8 +1,9 @@
 
 <!DOCTYPE html>
-<html>
+<html xmlns="">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="UTF-8"/>
+		<!--<script type="text/javascript" src="js/controller.js"></script>-->
 		<title> Jason King </title>
 	</head>
 	<body>
@@ -19,12 +20,19 @@
 			</li>
 		</ul>
 		<script>
-			var passNumber = prompt('Argh! Me be thinkin you be a trespasser! Enter the code number to pass or be run thru! (Enter number 1,2, or 3)',');
-				if passNumber == 2 ) {
-					alert("<p>ouy mate, welcome aboard! the decks need swabbin. step lively or be keyholed! </p>");
+			/*var passNumber = prompt('Argh! Me be thinkin you be a trespasser! Enter the code number to pass or be run thru! (Enter number 1,2, or 3)',');
+				if(passNumber == 2 ) {
+					alert("ouy mate, welcome aboard! the decks need swabbin. step lively or be keyholed! ");
 					} else {
-					alert("<h3>here be me knife, there be the plank. Your choice...</h3>");
-					}
+					alert("here be me knife, there be the plank. Your choice...");
+					}*/
+			var passNumber = "";
+			prompt('Argh! Me be thinkin you be a trespasser! Enter the code number to pass or be run thru! (Enter number 1,2, or 3)', passNumber);
+			if(passNumber == 2 ) {
+				alert("ouy mate, welcome aboard! the decks need swabbin. step lively or be keyholed! ");
+			} else {
+				alert("here be me knife, there be the plank. Your choice...");
+			}
 		</script>
 		<figure>
 			<img src="th.jpg" alt="lemony snickets captain">
